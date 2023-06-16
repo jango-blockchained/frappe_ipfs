@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_ipfs *.css
+recursive-include frappe_ipfs *.csv
+recursive-include frappe_ipfs *.html
+recursive-include frappe_ipfs *.ico
+recursive-include frappe_ipfs *.js
+recursive-include frappe_ipfs *.json
+recursive-include frappe_ipfs *.md
+recursive-include frappe_ipfs *.png
+recursive-include frappe_ipfs *.py
+recursive-include frappe_ipfs *.svg
+recursive-include frappe_ipfs *.txt
+recursive-exclude frappe_ipfs *.pyc
